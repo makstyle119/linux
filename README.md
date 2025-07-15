@@ -22,5 +22,9 @@ this is my journey to learn and understand Linux
     - *`sleep 10` = wait for 10 second*
 - *`mkdir` = to create directory*
 - *`touch` = to create file`*
+    - *`less file_name` = to read file`*
 - *`rm` = to remove file*
     - *`rm -r` = to remove directory`*
+- *`file` = to check file type`*
+- *`mv` = to move file`*
+    - *`mv file_name_before file_name_after` = to move and rename from file1 to file2`*
