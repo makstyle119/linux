@@ -22,7 +22,13 @@ this is my journey to learn and understand Linux
     - *`sleep 10` = wait for 10 second*
 - *`mkdir` = to create directory*
 - *`touch` = to create file*
+    - *`touch file_name` = to update timestamp of a file only if exist*
     - *`less file_name` = to read file*
+- *`> file_name` = to create file*
+    - *`echo "hello world" > file_name` = to write text in a file - overwrite*
+    - *`> existing_file_name` = to overwrite file`*
+- *`>> file_name` = to create file and append text in a file*
+    - *`echo "hello world" >> file_name` = to append text in a file - not overwrite like >*
 - *`rm` = to remove file*
     - *`rm -r` = to remove directory*
 - *`rmdir folder_name` = to remove empty directory only*
