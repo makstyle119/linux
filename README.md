@@ -7,6 +7,9 @@ this is my journey to learn and understand Linux
 **Q1- What Is an Operating System ?** <br />
 **A1- Operating System** is something which allow us to run and manage our machine.
 
+**Q1- What Is NULL device ?** <br />
+**A1- NULL Device** OR dev/null is a folder which will erase everything inside it like a black hole.
+
 ## Commands
 - *`pwd` = to get your path*
 - *`clear` = to clear the screen*
