@@ -47,3 +47,6 @@ this is my journey to learn and understand Linux
     - *`cp file_name_one file_name_two folder_name` = to copy file1 and file2 to folder*
     - *`cp -r folder` = copy all the child folders too*
 - *`cat` = to display file content*
+- *`ls non-existing file 2> error` = to append error in error file*
+    - *`ls 2> error > output` = to display error in error file and output in output file*
+    - *`ls 2>> error >> output` = to append error in error file and error in output file too`*
