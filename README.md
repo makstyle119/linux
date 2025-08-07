@@ -50,3 +50,5 @@ this is my journey to learn and understand Linux
 - *`ls non-existing file 2> error` = to append error in error file*
     - *`ls 2> error > output` = to display error in error file and output in output file*
     - *`ls 2>> error >> output` = to append error in error file and error in output file too`*
+    - *`ls non-existing file > output 2>&1` = to display error and output in output file - old way*
+    - *`ls &> output` = to display error and output in output file - new way*
