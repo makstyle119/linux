@@ -52,3 +52,12 @@ this is my journey to learn and understand Linux
     - *`ls 2>> error >> output` = to append error in error file and error in output file too`*
     - *`ls non-existing file > output 2>&1` = to display error and output in output file - old way*
     - *`ls &> output` = to display error and output in output file - new way*
+- *`ls -la /etc |` = to pipe(display) the output*
+- *`wc -l file_name` = to count the number of lines`*
+- *`tail file_name` = to display last 10 lines`*
+    - ``tail -n 5 file_name` = to display last 5 lines`*
+    - ``tail -n +2 file_name` = to display from line 2`*
+- *`ls /etc | tee output.txt` = to display the output and save it in a file*
+    - *`ls /etc 2>&1 | tee output.txt` = to display the error and save it in a file*
+    - *`ls /etc |& tee output.txt` = to display the error and save it in a file - only for new version of bash*
+    - *`ls /etc | tee -a output.txt` = to display the output and append it in a file*
