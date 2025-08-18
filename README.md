@@ -61,3 +61,10 @@ this is my journey to learn and understand Linux
     - *`ls /etc 2>&1 | tee output.txt` = to display the error and save it in a file*
     - *`ls /etc |& tee output.txt` = to display the error and save it in a file - only for new version of bash*
     - *`ls /etc | tee -a output.txt` = to display the output and append it in a file*
+- *`whoami` = to display your username*
+- *`id` = to display your user id*
+- *`getent passwd` = to display all user**
+    - *`getent passwd 1000` = to display user with id 1000**
+- *`sudo adduser student` = to create user*
+- *`su student` = to login as user`*
+- *`su - student` = to login as user and get home directory`*
