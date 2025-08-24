@@ -68,3 +68,7 @@ this is my journey to learn and understand Linux
 - *`sudo adduser student` = to create user*
 - *`su student` = to login as user`*
 - *`su - student` = to login as user and get home directory`*
+- *`groups` = to display what groups you belong to*
+- *`groups user_name` = to display what groups user belongs to*
+- *`sudo usermod -aG sudo user_name` = to add user to sudo group*
+- *`sudo groupadd group_name` = to create group*
