@@ -7,8 +7,18 @@ this is my journey to learn and understand Linux
 **Q1- What Is an Operating System ?** <br />
 **A1- Operating System** is something which allow us to run and manage our machine.
 
-**Q1- What Is NULL device ?** <br />
-**A1- NULL Device** OR dev/null is a folder which will erase everything inside it like a black hole.
+**Q2- What Is NULL device ?** <br />
+**A2- NULL Device** OR dev/null is a folder which will erase everything inside it like a black hole.
+
+**Q3- What Is Permission ?** <br />
+**A3- Permission** is what you can do with the file.
+- *`d` = directory*
+- *`r` = read*
+- *`w` = write*
+- *`x` = execute*
+- *`-` = no permission*
+- why written three times - first is for owner, second is for group and third is for other
+
 
 ## Commands
 - *`pwd` = to get your path*
@@ -72,3 +82,8 @@ this is my journey to learn and understand Linux
 - *`groups user_name` = to display what groups user belongs to*
 - *`sudo usermod -aG sudo user_name` = to add user to sudo group*
 - *`sudo groupadd group_name` = to create group*
+- *`chmod 777 file_name` = to give permission to all`*
+    - *`-` = is equal to 0`*
+    - *`x` = is equal to 1`*
+    - *`w` = is equal to 2`*
+    - *`r` = is equal to 4`*
