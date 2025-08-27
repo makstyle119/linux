@@ -87,3 +87,10 @@ this is my journey to learn and understand Linux
     - *`x` = is equal to 1`*
     - *`w` = is equal to 2`*
     - *`r` = is equal to 4`*
+    - *`u` = is equal to user`*
+    - *`g = is equal to group`*
+    - *`o = is equal to other`*
+    - *`a = is equal to all`*
+    - *`+ = is equal to add`*
+    - *`- = is equal to subtract`*
+    - *`= = is equal to equal`*
