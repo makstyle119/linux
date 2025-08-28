@@ -94,3 +94,6 @@ this is my journey to learn and understand Linux
     - *`+ = is equal to add`*
     - *`- = is equal to subtract`*
     - *`= = is equal to equal`*
+- *`chown :` = to change owner*
+    - *`chown user_name: file_name` = to change owner to user_name*
+    - *`chown :group_name file_name` = to change owner and group to user_name and group_name*
