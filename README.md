@@ -97,3 +97,8 @@ this is my journey to learn and understand Linux
 - *`chown :` = to change owner*
     - *`chown user_name: file_name` = to change owner to user_name*
     - *`chown :group_name file_name` = to change owner and group to user_name and group_name*
+- *`umask` = to display current umask - to set umask - to remove permission*
+    - *`umask 000` = to set umask to 000*
+        - *`0111` = remove read permission`*
+        - *`0222` = remove write permission`*
+        - *`0444` = remove execute permission`*
